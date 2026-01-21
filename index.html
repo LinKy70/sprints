@@ -6,21 +6,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__title">Инстаботы</h1>
-        <nav class="header__list">
-            <p class="header__link">О компании</p>
-            <p class="header__link">Тарифы</p>
-            <p class="header__link">Отзывы</p>
-            <p class="header__link">Q&A</p>
-            <p class="header__link">Обратная связь</p>
-        </nav>
-        <div class="header__menu">
-            <p class="header__link">Ru/En</p>
-            <button class="header__registration__button">Вход и регистрация</button>
+    <div class="header">
+        <div class="header__container">
+            <h1 class="header__title">Инстаботы</h1>
+            <nav class="header__list">
+                <p class="header__link">О компании</p>
+                <p class="header__link">Тарифы</p>
+                <p class="header__link">Отзывы</p>
+                <p class="header__link">Q&A</p>
+                <p class="header__link">Обратная связь</p>
+            </nav>
+            <div class="header__menu">
+                <p class="header__link">Ru/En</p>
+                <button class="header__registration__button">Вход и регистрация</button>
+            </div>
         </div>
-    </header>
+    </div>
     <main>
+        <div class="welcome">
         <div class="welcome__container">
             <div class="welcome__container__form">
                 <h1 class="welcome__container__title">Высокий уровень<br>
@@ -37,27 +40,39 @@
                     <p>Листайте дальше</p>
                 </div>
             </div>
+
             <div>
                 <img src="images/Picture.png" alt="Логотип">
             </div>
         </div>
-        <div class="advantages__container">
-            <h1>Наши преимущества</h1>
-            <article>
-                <img src="" alt="Легко и просто">
-                <h2>Легко и просто</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
-            </article>
-            <article>
-                <img src="" alt="Легко и просто">
-                <h2>Быстро и доступно</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
-            </article>
-            <article>
-                <img src="" alt="Легко и просто">
-                <h2>А главное качественно</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
-            </article>
+        </div>
+        <div class="advantages">
+            <div class="advantages__container">
+                <h1>Наши преимущества</h1>
+                <div class="advantages__blocks">
+                    <article class="advantage__block">
+                        <div class="block__header">
+                            <img src="images/Botan.png" alt="Легко и просто">
+                            <h2>Легко и просто</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </article>
+                    <article>
+                        <div class="block__header">
+                            <img src="images/ArabFunny.png" alt="Быстро и доступно">
+                            <h2>Быстро и доступно</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </article>
+                    <article>
+                        <div class="block__header">
+                            <img src="images/Cool.png" alt="Главное качественно">
+                            <h2>А главное качественно</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </article>
+                </div>
+            </div>
         </div>
         <div class="about__container">
             <div class="about__container__title">
@@ -248,7 +263,7 @@
             <button class="reviews__container__button">Структурировать котиков</button>
         </div>
         <div class="main_conteiner_sixth">
-            <img src="images/Picture%20(1).png" alt="Получите самую выгодную цену">
+            <img src="images/Picture20(1).png" alt="Получите самую выгодную цену">
             <div>
                 <h1>Получите самую выгодную цену на планете</h1>
                 <form class="main_container-input" action="email">
@@ -259,57 +274,67 @@
                 </form>
             </div>
         </div>
-        <div class="main_container-seventh">
+        <div class="question">
             <h1>Часто задаваемые вопросы</h1>
+        <div class="question__container">
             <article>
-                <div>
+                <div class="question__header">
                     <h1>Первый вопрос</h1>
-                    <img src="" alt="Закрыть">
+                    <img src="icons/More.png" alt="Закрыть">
                 </div>
-                <div>
+                <div class="question__body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
                 </div>
             </article>
             <article>
-                <div>
+                <div class="question__header">
                     <h1>Второй вопрос</h1>
-                    <img src="" alt="Закрыть">
+                    <img src="icons/More.png" alt="Закрыть">
                 </div>
-                <div>
+                <div class="question__body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
                 </div>
             </article>
             <article>
-                <div>
+                <div class="question__header">
                     <h1>Третий вопрос</h1>
-                    <img src="" alt="Закрыть">
+                    <img src="icons/More.png" alt="Закрыть">
                 </div>
-                <div>
+                <div class="question__body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
                 </div>
             </article>
             <article>
-                <div>
+                <div class="question__header">
                     <h1>Четвертый вопрос</h1>
-                    <img src="" alt="Закрыть">
+                    <img src="icons/More.png" alt="Закрыть">
                 </div>
-                <div>
+                <div class="question__body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus, lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
                 </div>
             </article>
         </div>
-        <div class="main_container_eighth">
-            <h1>Обратная связь</h1>
-            <p>Поговорите с одним из наших сотрудников, чтобы узнать, сколько мы можем получить для вас целевой аудитории за месяц с минимальными усилиями с вашей стороны</p>
-            <form action="">
-                <input class="main_search_input" type="text" placeholder="Введите свой e-mail">
-                <input class="main_search_input" type="text" placeholder="Номер мобильного телефона">
-                <input class="main_search_input" type="text" placeholder="Никнейм в instagram">
-                <input class="main_search_input" type="text" placeholder="Что вы бы хотели спросить о  росте в Instagram">
-                <button class="">Отправить</button>
-                <p class="">Нажимая на кнопку вы соглашаетесь на обработку</p>
-                <a href="">персональных данных</a>
-            </form>
+        </div>
+        <div class="feedback">
+            <div class="feedback__container">
+                <h1>Обратная связь</h1>
+                <p class="sup">Поговорите с одним из наших сотрудников, чтобы узнать, сколько мы можем получить для вас целевой аудитории за месяц с минимальными усилиями с вашей стороны</p>
+                <form class="feedback__form" action="">
+                    <input class="feedback__input" type="text" placeholder="Введите свой e-mail">
+                    <input class="feedback__input" type="text" placeholder="Номер мобильного телефона">
+                    <input class="feedback__input" type="text" placeholder="Никнейм в instagram">
+                    <input class="feedback__input" type="text" placeholder="Что вы бы хотели спросить о  росте в Instagram">
+                </form>
+                <div class="send__feedback">
+                    <button class="feedback__button">Отправить заявку</button>
+                    <div class="sup1">
+                        <p>Нажимая на кнопку вы соглашаетесь на обработку</p>
+                        <a class="ss" href="">персональных данных</a>
+                    </div>
+                </div>
+
+            </div>
+            <img src="images/Feedback.png" alt="Обратная связь">
         </div>
     </main>
     <footer>
