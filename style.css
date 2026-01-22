@@ -18,6 +18,25 @@
     font-style: normal;
 }
 
+.advantages h1 {
+    margin:  0 0 0 50px;
+}
+
+.tariffs__container h1{
+    margin:  0 0 0 50px;
+    padding:  50px 0 0 0;
+}
+
+.reviews__container h1{
+    margin:  0 0 0 50px;
+    padding:  50px 0 0 0;
+}
+
+.question h1{
+    margin:  0 0 25px 50px;
+    padding:  50px 0 0 0;
+}
+
 input, button {
     outline: none;
     font-size: large;
@@ -37,6 +56,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
     backdrop-filter: blur(100px);
+    background-size: 100%;
 }
 
 a{
@@ -124,6 +144,10 @@ a{
     position: relative;
 }
 
+.welcome__form p {
+    margin-top: 15px;
+}
+
 .welcome__form__button{
     background: white;
     border: none;
@@ -166,6 +190,7 @@ a{
 
 .advantages__container > h1 {
     align-self: flex-start;
+
 }
 
 .advantages__blocks{
@@ -173,7 +198,11 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
+    margin-block: 30px;
+    justify-items: center}
 
+.advantage__block{
+    width: 70%;
 }
 
 .block__header{
@@ -231,6 +260,36 @@ a{
     color: #4754EB;
 }
 
+.tariffs__block{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding-block: 20px;
+    border-radius: 15px;
+}
+
+.tariffs__block__header{
+    margin-bottom: 40px;
+}
+
+.tariffs__container{
+    background-color: white;
+}
+
+.tariffs__body__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tariffs__block__button{
+
+}
+
+
 .reserved__button{
     background: #4754EB;
     border: none;
@@ -246,27 +305,133 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
 }
 
 .help{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .reviews__block{
     border-radius: 15px;
     background-color: #F8F8F7;
     width: 630px;
-    height: 240px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.reviews__container__button{
+    color: #4754EB;
+    background-color: white;
+    width: 270px;
+    height: 55px;
+    border: none;
+    border-radius: 16px;
+    position: relative;
+    top: -200px;
+    right: -80%;
+}
+
+.first__block{
+    position: relative;
+    left: 10%;
+    top: 200px;
+    z-index: -4;
+}
+
+.second__block{
+    position: relative;
+    left: 25%;
+    top: -150px;
+    z-index: -3;
+}
+
+.third__block{
+    position: relative;
+    left: 53%;
+    top: -200px;
+    z-index: -2;
+}
+
+.fourth__block{
+    position: relative;
+    left: 35%;
+    top: -250px;
+    z-index: -1;
+}
+
+.sale{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.sale__container{
+    display: flex;
+    align-items: center;
+}
+
+.sale__container__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sale__form{
+    position: relative;
+}
+
+.sale__form__button{
+    background: #4754EB;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    width: 140px;
+    height: 44px;
+    margin-top: 25px;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+.sale__container__form h2{
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.sale__form p {
+    margin-top: 15px;
+}
+
+.sale__email-input{
+    width: 465px;
+    height: 64px;
+    opacity: 50%;
+    border: none;
+    border-radius: 16px;
+    padding-left: -15px;
+    background-color: #F2F2F2;
 }
 
 .question__container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.question__block{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 30px;
 }
 
 .question__header{
@@ -275,14 +440,26 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border-radius: 15px 15px 0 0;
-    width: 95%;
+    border-radius: 10px 10px 0 0;
 }
+
+.question__body{
+    padding-block: 15px;
+    border-radius: 0 0 10px 10px;
+    background-color: #F2F2F2;
+}
+
 
 .feedback{
     background-color: white;
     display: flex;
     justify-content: space-around;
+}
+
+.feedback p{
+    color: #808080;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .feedback__container{
@@ -299,8 +476,16 @@ a{
     width: 230px;
 }
 
+.send__feedback{
+    margin-top: 25px;
+}
+
 .ss{
     width: 100px;
+}
+
+.feedback{
+    padding-block: 40px;
 }
 
 .feedback__form{
@@ -337,6 +522,7 @@ a{
 }
 
 footer{
+    color: white;
     background-color: white;
     z-index: -1;
     width: 100%;
@@ -346,13 +532,25 @@ footer{
     background-color: #505DEC;
     height: 120px;
     border-radius: 0 0 25px 25px;
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer__title{
+    margin-left: 25px;
     display: flex;
     flex-direction: column;
+}
+
+.footer__scroll{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__arrow{
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
 }
