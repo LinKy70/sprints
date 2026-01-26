@@ -1,12 +1,10 @@
-@media (max-width: 720px) {
-    body{
+@media (max-width: 720px){
+    .header__container{
         background-color: red;
-    }
-    .header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
-    .header__link{
-        display: none;
+    .header__list{
+        display: none; !important;
     }
-}
+    }
