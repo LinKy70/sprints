@@ -1,0 +1,12 @@
+@media (max-width: 720px) {
+    body{
+        background-color: red;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__link{
+        display: none;
+    }
+}
