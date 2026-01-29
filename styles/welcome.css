@@ -1,0 +1,146 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.welcome__container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.welcome__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.welcome__confirm{
+    width: 400px;
+}
+
+.welcome__title {
+    width: 50%;
+    font-size: 50px;
+}
+
+.welcome__email {
+    width: 450px;
+    height: 64px;
+    opacity: 50%;
+    border: none;
+    border-radius: 16px;
+    padding-left: -15px;
+}
+
+.welcome__form {
+    position: relative;
+}
+
+.welcome__form p {
+    margin-top: 15px;
+}
+
+.welcome__send {
+    background: white;
+    border: none;
+    color: #4754EB;
+    border-radius: 16px;
+    width: 143px;
+    height: 48px;
+    position: absolute;
+    right: 155px;
+    top: 8px;
+}
+
+.welcome__scroll {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.welcome__form {
+    position: relative;
+}
+
+@media (max-width: 360px){
+    .welcome__container__title {
+        margin-bottom: 20px;
+    }
+
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome__email {
+        position: relative;
+        width: 93%;
+    }
+
+    .welcome__send {
+        position: absolute;
+        left: 130px;
+        top: 8px;
+    }
+
+    .welcome__image-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome__image {
+        height: 70%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .welcome__image-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome__image {
+        height: 70%;
+        width: 70%;
+    }
+
+    .welcome__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome__content {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .welcome__email {
+        width: 400px;
+    }
+
+    .welcome__send {
+        left: 250px;
+    }
+
+    .welcome__scroll {
+        display: none;
+    }
+}

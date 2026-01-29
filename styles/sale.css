@@ -1,0 +1,91 @@
+.sale {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.sale__container {
+    display: flex;
+    align-items: center;
+}
+
+.sale__container__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sale__form {
+    position: relative;
+}
+
+.sale__send {
+    background: #4754EB;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    width: 140px;
+    height: 44px;
+    margin-top: 25px;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+.sale__title{
+    width: 400px;
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.sale__form p {
+    margin-top: 15px;
+}
+
+.sale__email-input {
+    width: 465px;
+    height: 64px;
+    opacity: 50%;
+    border: none;
+    border-radius: 16px;
+    padding-left: -15px;
+    background-color: #F2F2F2;
+}
+
+@media (max-width: 360px){
+    .sale {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sale__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sale__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px){
+    .sale {
+        display: flex;
+        flex-direction: column;
+        padding-block: 40px;
+    }
+
+    .sale__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-left: 40px;
+    }
+}
