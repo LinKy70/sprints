@@ -43,7 +43,6 @@ button {
 }
 
 body {
-    z-index: 1;
     font-family: 'Visuelt', sans-serif;
     background-color: #EFEFEF;
     padding: 20px 20px 20px 20px;
