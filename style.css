@@ -29,13 +29,14 @@
     font-style: normal;
 }
 
-input, button {
-    outline: none;
-    font-size: large;
+input{
+    padding: 25px;
 }
 
-input {
-    padding: 0 20px
+input, button {
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 button {
@@ -67,7 +68,7 @@ section{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/Background.png');
+    background-image: url('images/Background.svg');
     background-size: cover;
     background-repeat: no-repeat;
     filter: blur(150px);
@@ -89,6 +90,7 @@ a {
 
     input {
         width: 300px;
+
     }
 
     body {

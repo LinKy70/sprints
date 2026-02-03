@@ -44,7 +44,7 @@
     position: relative;
 }
 
-.welcome__form p {
+.welcome__confirm{
     margin-top: 15px;
 }
 
@@ -55,7 +55,9 @@
     width: 143px;
     height: 48px;
     right: 155px;
+    position: absolute;
     top: 8px;
+    background-color: #ffffff;
 }
 
 .welcome__scroll {

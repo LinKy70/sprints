@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-around;
     height: 80px;
-    width: 1392px;
+    width: 1400px;
 }
 
 .header__title-container{
@@ -45,7 +45,7 @@
     justify-content: space-between;
 }
 
-.header__link-color{
+.header__language_selected{
     color: #4754EB;
 }
 

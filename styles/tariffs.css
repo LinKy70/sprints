@@ -1,12 +1,23 @@
+.tariffs__container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.tariffs {
+    background-color: #FFFFFF;
+}
+
 .tariffs__list {
-    padding-block: 30px;
+    padding: 30px;
     display: grid;
     justify-items: center;
+    gap: 20px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .tariffs__title{
-    padding-block: 25px;
+    font-size: 30px;
+    padding-block: 30px;
     margin-left: 25px;
 }
 
@@ -27,12 +38,17 @@
 }
 
 .tariffs__block__header {
+    background-color: #FCFCFC;
     margin-left: 40px;
     margin-bottom: 20px;
 }
 
-.tariffs__block__header p {
+.tariffs__block-price {
     color: #4754EB;
+}
+
+.block-price_gray{
+    color: #808080;
 }
 
 .tariffs__container {

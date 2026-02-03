@@ -22,11 +22,10 @@
                 <a class="header__link">Обратная связь</a>
             </nav>
             <div class="header__menu">
-                <p>
-                    <span class="header__link-color">Ru</span>
-                    <span>/</span>
-                    <!--idk what is it naming-->
-                    <span>En</span>
+                <p class="header__language-select">
+                    <span class="header__language header__language_selected">Ru</span>
+                    /
+                    <span class="header__language">En</span>
                 </p>
                 <img class="header__cabinet" src="icons/Cabinet.svg" alt="Личный кабинет">
                 <button class="header__registration-link">Вход и регистрация</button>
@@ -47,13 +46,11 @@
                         </p>
                     </form>
                     <div class="welcome__scroll">
-                        <img src="icons/Wheeldown.png" alt="Листайте дальше">
+                        <img src="icons/Wheeldown.svg" alt="Листайте дальше">
                         <p>Листайте дальше</p>
                     </div>
                 </div>
-                <div class="welcome__image-block">
-                    <img class="welcome__image" src="images/Picture.png" alt="Логотип">
-                </div>
+                <img class="welcome__image" src="images/Picture.png" alt="Логотип">
             </div>
         </section>
         <section class="advantages">
@@ -65,7 +62,7 @@
                             <img src="images/Botan.png" alt="Легко и просто">
                             <h3>Легко и просто</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
+                        <p class="advantage-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue
                             arcu turpis est, aliquet porttitor.</p>
                     </article>
@@ -74,7 +71,7 @@
                             <img src="images/ArabFunny.png" alt="Быстро и доступно">
                             <h3>Быстро и доступно</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
+                        <p class="advantage-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue
                             arcu turpis est, aliquet porttitor.</p>
                     </article>
@@ -83,7 +80,8 @@
                             <img src="images/Cool.png" alt="Главное качественно">
                             <h3>А главное качественно</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
+                        <p class="advantage-block__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue
                             arcu turpis est, aliquet porttitor.</p>
                     </article>
@@ -100,14 +98,13 @@
                 <div class="about__text">
                     <div class="about__item">
                         <h4 class="slider__menu">Lorem ipsum</h4>
-                        <h4 class="slider__menu">-</h4>
+                        <img src="icons/Line.svg" alt="#">
                         <h4 class="slider__menu">Lorem ipsum</h4>
-                        <h4 class="slider__menu about__phone__reverse">-</h4>
                         <h4 class="slider__menu">Lorem ipsum</h4>
-                        <h4 class="about__phone slider__menu">-</h4>
+                        <img src="icons/Line.svg" alt="#">
                         <h4 class="about__phone slider__menu">Lorem ipsum</h4>
                     </div>
-                    <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
+                    <h2 class="sin">Lorem ipsum dolor sit amet, consectetur.</h2>
                     <h3>Semper sollicitudin ut cursus nunc eu ultricies.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla tincidunt egestas
                         nibh. Non orci, et massa sed vulputate proin. Eu euismod diam, arcu sit vitae nam. Tristique
@@ -125,30 +122,32 @@
                     <article class="tariffs__block">
                         <div class="tariffs__block__header">
                             <h2>Эконом</h2>
-                            <p>2 990 руб/месяц</p>
+                            <p class="tariffs__block-price">2 990 руб
+                                <span class="block-price_gray">/месяц</span>
+                            </p>
                         </div>
                         <div class="tariffs__body">
                             <div class="tariffs__row">
-                                <img src="icons/Yeap.svg" alt="">
+                                <img src="icons/Yeap.svg" alt="#">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit
                                     felis odio.
                                 </p>
                             </div>
                             <div class="tariffs__row">
-                                <img src="icons/Not.svg" alt="">
+                                <img src="icons/Not.svg" alt="#">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
                             </div>
                             <div class="tariffs__row">
-                                <img src="icons/Not.svg" alt="">
+                                <img src="icons/Not.svg" alt="#">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
                             </div>
                             <div class="tariffs__row">
-                                <img src="icons/Not.svg" alt="">
+                                <img src="icons/Not.svg" alt="#">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit
                                     felis odio.
@@ -160,7 +159,9 @@
                     <article class="tariffs__block">
                         <div class="tariffs__block__header">
                             <h2>Стандарт</h2>
-                            <p>4 990 руб/месяц</p>
+                            <p class="tariffs__block-price">4 990 руб
+                                <span class="block-price_gray">/месяц</span>
+                            </p>
                         </div>
                         <div class="tariffs__body">
                             <div class="tariffs__row">
@@ -195,7 +196,9 @@
                     <article class="tariffs__block">
                         <div class="tariffs__block__header">
                             <h2>Экстра</h2>
-                            <p>8 990 руб/месяц</p>
+                            <p class="tariffs__block-price">8 990 руб
+                                <span class="block-price_gray">/месяц</span>
+                            </p>
                         </div>
                         <div class="tariffs__body">
                             <div class="tariffs__row">
@@ -230,7 +233,9 @@
                     <article class="tariffs__block">
                         <div class="tariffs__block__header">
                             <h2>Премиальный</h2>
-                            <p>12 990 руб/месяц</p>
+                            <p class="tariffs__block-price">12 990 руб
+                                <span class="block-price_gray">/месяц</span>
+                            </p>
                         </div>
                         <div class="tariffs__body">
                             <div class="tariffs__row">
@@ -281,11 +286,11 @@
                         Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu turpis
                         est, aliquet porttitor.<p></p>
                         <div class="rate">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
                         </div>
                     </article>
                     <article class="reviews__block reviews__block-second">
@@ -300,11 +305,11 @@
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu
                             turpis est, aliquet porttitor.</p>
                         <div class="rate">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
                         </div>
                     </article>
                     <article class="reviews__block reviews__block-third">
@@ -319,11 +324,11 @@
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu
                             turpis est, aliquet porttitor.</p>
                         <div class="rate">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/NotActive.png" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/NotActive.svg" alt="Звезда">
                         </div>
                     </article>
                     <article class="reviews__block reviews__block-fourth">
@@ -338,11 +343,11 @@
                             odio. Sociis et pellentesque sed id. Congue arcu turpis est, aliquet porttitor. Congue arcu
                             turpis est, aliquet porttitor.</p>
                         <div class="rate">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/Active.png" alt="Звезда">
-                            <img src="images/NotActive.png" alt="Звезда">
-                            <img src="images/NotActive.png" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/Active.svg" alt="Звезда">
+                            <img src="icons/NotActive.svg" alt="Звезда">
+                            <img src="icons/NotActive.svg" alt="Звезда">
                         </div>
                     </article>
                 </div>
@@ -361,22 +366,24 @@
                         <form class="sale__form">
                             <input class="sale__email-input" type="text" placeholder="Введите свой e-mail">
                             <button class="sale__send">Отправить</button>
-                            <p>Нажимая на кнопку вы соглашаетесь на обработку</p>
-                            <a href="#">персональных данных</a>
+                            <p class="agreement">Нажимая на кнопку вы соглашаетесь на обработку
+                                <a href="#">персональных данных</a>
+                            </p>
                         </form>
                     </div>
                 </div>
         </section>
         <section class="question">
             <h2 class="question__title">Часто задаваемые вопросы</h2>
+            <div class="question__container">
             <div class="question__list">
                 <article class="question__item">
                     <div class="question__header">
                         <h2 class="question__header-title">Первый вопрос</h2>
-                        <img src="icons/Close.png" alt="Закрыть">
+                        <img src="icons/Close.svg" alt="Закрыть">
                     </div>
                     <div class="question__body">
-                        <p>
+                        <p class="question__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
                             pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
                             lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor,
@@ -389,71 +396,77 @@
                 <article class="question__item">
                     <div class="question__header">
                         <h2 class="question__header-title">Второй вопрос</h2>
-                        <img src="icons/Close.png" alt="Закрыть">
+                        <img src="icons/Close.svg" alt="Закрыть">
                     </div>
                     <div class="question__body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                        <p class="question__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
                             pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
                             lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor,
                             porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam.
                             Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris,
-                            sit. </p>
+                            sit.
+                        </p>
                     </div>
                 </article>
                 <article class="question__item">
                     <div class="question__header">
                         <h2 class="question__header-title">Третий вопрос</h2>
-                        <img src="icons/Close.png" alt="Закрыть">
+                        <img src="icons/Close.svg" alt="Закрыть">
                     </div>
                     <div class="question__body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                        <p class="question__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
                             pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
                             lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor,
                             porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam.
                             Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris,
-                            sit. </p>
+                            sit.
+                        </p>
                     </div>
                 </article>
                 <article class="question__item">
                     <div class="question__header">
                         <h2 class="question__header-title">Четвертый вопрос</h2>
-                        <img src="icons/Close.png" alt="Закрыть">
+                        <img src="icons/Close.svg" alt="Закрыть">
                     </div>
                     <div class="question__body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                        <p class="question__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
                             pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
                             lobortis lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor,
                             porttitor. Tincidunt nunc praesent euismod in nisl, tellus suspendisse morbi nam.
                             Egestas eget erat malesuada gravida. Et enim integer quam orci, cursus tincidunt mauris,
-                            sit. </p>
+                            sit.
+                        </p>
                     </div>
                 </article>
+            </div>
             </div>
         </section>
         <section class="feedback">
             <div class="feedback__container">
-                <h2>Обратная связь</h2>
-                <p class="feedback__title">
-                    Поговорите с одним из наших сотрудников, чтобы узнать, сколько мы можем
-                    получить для вас целевой аудитории за месяц с минимальными усилиями с вашей стороны
-                </p>
-                <form class="feedback__form">
-                    <input class="feedback__input" type="email" placeholder="Введите свой e-mail">
-                    <input class="feedback__input" type="tel" placeholder="Номер мобильного телефона">
-                    <input class="feedback__input" type="text" placeholder="Никнейм в instagram">
-                    <textarea class="feedback__input" placeholder="Что вы бы хотели спросить о  росте в Instagram">
-                        </textarea>
-                </form>
-                <div class="send__feedback">
-                    <button class="feedback__button">Отправить заявку</button>
-                    <div class="agreement">
-                        <p>Нажимая на кнопку вы соглашаетесь на обработку
-                            <a class="agreement__item" href="#">персональных данных</a>
-                        </p>
+                <div class="feedback__item">
+                    <h2>Обратная связь</h2>
+                    <p class="feedback__title">
+                        Поговорите с одним из наших сотрудников, чтобы узнать, сколько мы можем
+                        получить для вас целевой аудитории за месяц с минимальными усилиями с вашей стороны
+                    </p>
+                    <form class="feedback__form">
+                        <input class="feedback__input" type="email" placeholder="Введите свой e-mail">
+                        <input class="feedback__input" type="tel" placeholder="Номер мобильного телефона">
+                        <input class="feedback__input" type="text" placeholder="Никнейм в instagram">
+                        <teaxtarea class="feedback__input" placeholder="Что вы бы хотели спросить о  росте в Instagram"></teaxtarea>
+                    </form>
+                    <div class="send__feedback">
+                        <button class="feedback__button">Отправить заявку</button>
+                        <div class="agreement">
+                            <p>Нажимая на кнопку вы соглашаетесь на обработку
+                                <a class="agreement__item" href="#">персональных данных</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
             <img src="images/Feedback.png" alt="Обратная связь">
+        </div>
         </section>
     </main>
     <footer>
@@ -465,7 +478,7 @@
             </div>
             <div class="footer__scroll-block">
                 <p class="footer__scroll">Вернуться наверх</p>
-                <p class="phone__scroll">Наверх</p>
+                <p class="footer_phone__scroll">Наверх</p>
                 <img class="footer__arrow" src="icons/Arrow.svg" alt="Вернуться наверх">
             </div>
         </div>
