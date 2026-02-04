@@ -1,0 +1,117 @@
+@import "styles/header.css";
+@import "styles/welcome.css";
+@import "styles/advantages.css";
+@import "styles/about.css";
+@import "styles/tariffs.css";
+@import "styles/reviews.css";
+@import "styles/sale.css";
+@import "styles/question.css";
+@import "styles/feedback.css";
+@import "styles/footer.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Visuelt';
+    src: url('/fonts/VisueltPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt';
+    src: url('/fonts/VisueltPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt';
+    src: url('/fonts/VisueltPro-Regular.woff2') format('woff2');
+    font-weight: initial;
+    font-style: normal;
+}
+
+
+input{
+    outline: none;
+    padding-left: 15px;
+}
+
+button {
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Visuelt', sans-serif;
+    background-color: #EFEFEF;
+    padding: 20px 20px 20px 20px;
+}
+
+section{
+    padding-block: 40px;
+}
+
+.wrapper {
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    background-color: white;
+}
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/Background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(200px);
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 360px) {
+    * {
+        max-width: 360px;
+    }
+
+    p {
+        max-width: 330px;
+    }
+
+    input {
+        width: 300px;
+
+    }
+
+    body {
+        padding: 10px 10px 10px 10px;
+    }
+
+    p, a {
+        font-size: small;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+

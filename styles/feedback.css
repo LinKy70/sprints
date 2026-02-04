@@ -1,0 +1,130 @@
+.feedback {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedback__item h2{
+    font-size: 30px;
+}
+
+.feedback__container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.feedback__title{
+    color: #808080;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+
+}
+
+.feedback__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.agreement {
+    color: #808080;
+    font-size: 12px;
+    width: 250px;
+}
+
+.textarea{
+    font-family: 'Visuelt', sans-serif;
+    resize: none;
+}
+
+.agreement__item {
+    width: 100px;
+}
+
+.feedback {
+    padding-block: 40px;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.feedback__input {
+    outline: none;
+    width: 465px;
+    height: 60px;
+    border: none;
+    border-radius: 16px;
+    padding-right:  15px;
+    margin-bottom: 15px;
+    background-color: #F2F2F2;
+}
+
+.feedback__button {
+    background: #4754EB;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    width: 220px;
+    height: 55px;
+}
+
+textarea{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.send__feedback {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+@media (max-width: 360px){
+    .feedback__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .send__feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .feedback__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 720px) {
+    .feedback img {
+        display: none;
+    }
+
+    .feedback__container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}

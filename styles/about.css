@@ -1,0 +1,134 @@
+.switcher{
+    width: 24px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.about__slider-menu{
+    font-weight: normal;
+}
+
+.about{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.about__phone__reverse {
+    display: block;
+}
+
+.about__text h3 {
+    color: #4754EB;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+    align-items: center;
+}
+
+.about__title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__txt{
+    color: #808080;
+}
+
+/*IDK HOW DO SOMETHING MID*/
+.about__subtitle{
+    margin-bottom: 10px;
+}
+
+.about__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 460px;
+}
+
+.about__container p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.about__subtitle{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about__item > h4:first-child {
+    color: #4754EB;
+}
+
+.about__item {
+    color: white;
+}
+
+@media (max-width: 360px){
+    .about__image {
+        width: 90%;
+        height: 85%;
+    }
+
+    .about__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__title{
+        font-size: 20px;
+    }
+
+    .about__phone {
+        display: none;
+    }
+
+    .about__item {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .about__container {
+        height: 900px;
+    }
+
+    .about__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 720px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        height: 1700px;
+        justify-content: center !important;
+    }
+
+    .about__text {
+        display: flex;
+    }
+
+    .about__phone__reverse {
+        display: block;
+    }
+}

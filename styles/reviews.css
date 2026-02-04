@@ -1,0 +1,123 @@
+.reviews{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.reviews__list {
+    min-height: 700px;
+    position: relative;
+}
+
+.reviews__block {
+    box-shadow: rgba(169, 169, 169, 0.2) 0 0 10px;
+    border-radius: 15px;
+    background-color: #F8F8F7;
+    width: 630px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.reviews__title{
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.reviews__block__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews__block__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews__block__header{
+    gap: 15px
+}
+
+.reviews__block_text{
+    color: #808080;
+}
+
+.reviews__button {
+    color: #4754EB;
+    background-color: white;
+    width: 270px;
+    height: 55px;
+    border: none;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 100px;
+    right: 55px;
+}
+
+.reviews__block-first {
+    position: absolute;
+    z-index: 1;
+    bottom: 345px;
+    left: 55px;
+}
+
+.reviews__block-second {
+    position: absolute;
+    z-index: 2;
+    bottom: 400px;
+    left: 380px;
+}
+
+.reviews__block-third {
+    position: absolute;
+    z-index: 3;
+    bottom: 210px;
+    right: 55px;
+}
+
+.reviews__block-fourth {
+    position: absolute;
+    z-index: 4;
+    bottom: 80px;
+    left: 220px;
+}
+
+@media (max-width: 360px){
+    .reviews__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px){
+    .reviews__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__blocks__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__block {
+        position: static;
+        margin-top: 40px;
+    }
+
+    .reviews__container__button {
+        display: none;
+    }
+    .reviews__button {
+        display: none;
+    }
+}
