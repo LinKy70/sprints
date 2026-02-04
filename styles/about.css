@@ -4,6 +4,9 @@
     background-color: #FFFFFF;
 }
 
+.about__slider-menu{
+    font-weight: normal;
+}
 
 .about{
     margin: 0 auto;
@@ -34,6 +37,11 @@
 
 .about__txt{
     color: #808080;
+}
+
+/*IDK HOW DO SOMETHING MID*/
+.about__subtitle{
+    margin-bottom: 10px;
 }
 
 .about__item {
