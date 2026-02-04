@@ -22,6 +22,7 @@
 }
 
 .tariffs__block {
+    box-shadow: rgba(169, 169, 169, 0.2) 0 0 10px;
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
@@ -53,6 +54,10 @@
 
 .tariffs__container {
     background-color: white;
+}
+
+.tariffs__text{
+    color: #808080;
 }
 
 .tariffs__row {
@@ -98,6 +103,7 @@
 
 @media (max-width: 720px){
     .tariffs__list {
+        padding: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);

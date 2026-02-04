@@ -18,7 +18,7 @@
 @font-face {
     font-family: 'Visuelt';
     src: url('/fonts/VisueltPro-Regular.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: initial;
     font-style: normal;
 }
 
@@ -29,11 +29,19 @@
     font-style: normal;
 }
 
-input{
-    padding: 25px;
+@font-face {
+    font-family: 'Visuelt';
+    src: url('/fonts/VisueltPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
-input, button {
+
+input{
+    outline: none;
+}
+
+button {
     outline: none;
     font-size: 15px;
     font-weight: bold;

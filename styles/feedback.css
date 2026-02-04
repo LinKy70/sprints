@@ -28,10 +28,14 @@
 }
 
 .agreement {
-
     color: #808080;
     font-size: 12px;
     width: 250px;
+}
+
+.textarea{
+    font-family: 'Visuelt', sans-serif;
+    resize: none;
 }
 
 .agreement__item {
@@ -49,7 +53,7 @@
 }
 
 .feedback__input {
-    /*How to without static width*/
+    outline: none;
     width: 465px;
     height: 60px;
     border: none;
@@ -60,7 +64,6 @@
 }
 
 .feedback__button {
-    /*How to without static width*/
     background: #4754EB;
     border: none;
     color: white;

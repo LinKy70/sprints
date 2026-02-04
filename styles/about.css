@@ -1,3 +1,10 @@
+.switcher{
+    width: 24px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+
 .about{
     margin: 0 auto;
     max-width: 1400px;
@@ -19,9 +26,14 @@
 }
 
 .about__title {
+    margin-bottom: 40px;
     font-size: 40px;
     display: flex;
     flex-direction: column;
+}
+
+.about__txt{
+    color: #808080;
 }
 
 .about__item {
@@ -45,7 +57,7 @@
     margin-top: 15px;
 }
 
-.sin{
+.about__subtitle{
     font-size: 30px;
     margin-bottom: 15px;
 }
